@@ -9,3 +9,129 @@ html,body{
     color: white;
     background-color: rgba(0, 0, 0, 0.984);
 }
+:root{
+    --main-color: #151414;
+    --color:#fff;
+    --font-head:3vw;
+    --off-white:#ffffffa6;
+    
+}
+
+#page1{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+    left: 2%;
+    width: 96%;
+    height: 95vh;
+    border-radius: 10px;
+    color: var(--color);
+    background-color:var(--main-color);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#page1>h1{
+    position: relative;
+    top: 2vh;
+    left: 12.5vh;
+    font-size: 3.5vw;
+&:hover{
+    cursor: pointer;
+    color: var(--off-white);
+}
+
+}
+#page1>nav{
+    position: relative;
+    left:96vh;
+    top: 3vh;
+    right: 8vh;
+}
+#page1>nav>ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 5vh;
+    list-style: none;
+    font-size: 2vw;
+   
+}
+#page1>nav>ul>li:hover{
+        cursor: pointer;
+        color: var(--off-white);
+
+   
+}
+#page1>nav>ul>button{
+    font-size: 2vw;
+    padding: 8px 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: none;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+
+&:hover{
+    cursor: pointer;
+    background-color: #ffffffa6;
+    color: rgb(255, 255, 255);   
+}
+}
+#page1>#hero>.page1-right{
+    position: relative;
+    margin-top: 10vh;
+    right: 8vh;
+    top: 2vh;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+#page1>#hero>.page1-left{
+    position:absolute;
+    top: 8vw;
+    left: 2.5vw;
+    right: 6vh;
+    width: 49vw;
+    height: 72vh;
+    /* background-color: #e20707; */
+}
+#page1>#hero>.page1-left{
+    font-size:2vw;
+    padding-left: 6vh;
+    padding-top: 15vh;
+}
+#hero>h1>#sub{
+    font-size: 2vw;
+}
+#hero>.btn-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.btn-hero>button{
+    position: relative;
+    top: 2vw;
+    left: 0vh;
+    margin-left: 5px;
+    padding: 20px 30px;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
